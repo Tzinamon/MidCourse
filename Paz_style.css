@@ -6,11 +6,7 @@ body{
     text-align: right;
     font-family: 'Arial (Hebrew)', Helvetica, sans-serif;
 }
-
-nav {
-    background-color: #008CBA;
-}
-.row {
+.row1, .row2 {
     display: flex;
 }
 nav > ul {
@@ -27,8 +23,35 @@ nav > ul > li > a{
 nav > ul > li > a:hover{
     background-color: #0079A1;
 }
-div.content {
+.content {
     border: solid gray;
     background-color: lightgray;
     margin: 5px;
+}
+.row1, .row2 {
+    border: solid gray;
+    background-color: lightgray;
+    margin: 5px;
+}
+
+header {
+    position: fixed;
+    background-color: silver;
+    color: white;
+    top: 0;
+    width: 100vw;
+}
+footer{
+    position: fixed;
+    background-color: silver;
+    bottom: 0;
+    width: 100%;
+}
+.row1 > .column {
+    width: 291px;
+    height: 354px;
+}
+.row2 > .column {
+    width: 291px;
+    height: 354px;
 }
