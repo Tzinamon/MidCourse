@@ -10,15 +10,14 @@ body{
 nav {
     background-color: #008CBA;
 }
-
-
-
+.row {
+    display: flex;
+}
 nav > ul {
     display: flex;
     list-style: none;
     padding: 0;
 }
-
 nav > ul > li > a{
     color: #D6FFFB;
     text-decoration: none;
@@ -32,4 +31,4 @@ div.content {
     border: solid gray;
     background-color: lightgray;
     margin: 5px;
-  }
+}
