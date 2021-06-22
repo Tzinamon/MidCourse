@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    flex-direction: column;
     direction: rtl;
     text-align: right;
     margin: 0;
     border: none;
     padding: 0;
     font-family: 'Arial (Hebrew)', Helvetica, sans-serif;
+
 }
 .row1, .row2 {
     display: flex;
@@ -26,7 +29,7 @@ nav > ul {
     bottom: 0;
 }
 nav > ul > li > a{
-    color: #D6FFFB;
+    color: white;
     text-decoration: none;
     padding: 15px;
     display: inline-block;
@@ -43,7 +46,7 @@ nav > ul > li > a:hover{
 header {
     margin-top: 0;
     background-color: silver;
-    color: white;
+    color: #fff;
     height: 105px;
     width: 100vw;
 }
@@ -83,4 +86,8 @@ footer{
     width: 50%;
     position: relative;
     float: left;
+}
+.navbar {
+    font-size: 15px;
+    font-weight: bold;
 }
