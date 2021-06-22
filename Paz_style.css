@@ -6,3 +6,25 @@ body{
     text-align: right;
     font-family: 'Arial (Hebrew)', Helvetica, sans-serif;
 }
+
+nav {
+    background-color: #008CBA;
+}
+
+
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav > ul > li > a{
+    color: #D6FFFB;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+nav > ul > li > a:hover{
+    background-color: #0079A1;
+}
