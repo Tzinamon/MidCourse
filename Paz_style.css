@@ -4,6 +4,7 @@
 body{
     direction: rtl;
     text-align: right;
+    margin: 0;
     font-family: 'Arial (Hebrew)', Helvetica, sans-serif;
 }
 .row1, .row2 {
@@ -12,8 +13,8 @@ body{
     border: solid gray;
     background-color: lightgray;
 }
-.row2 {
-    margin:auto 10 auto;
+main {
+    margin-top: 10px;
 }
 nav > ul {
     display: flex;
@@ -36,10 +37,9 @@ nav > ul > li > a:hover{
 }
 
 header {
-    position: fixed;
+    margin-top: 0;
     background-color: silver;
     color: white;
-    top: 0;
     height: 105px;
     width: 100vw;
 }
@@ -51,16 +51,18 @@ footer{
     height: 38px;
 }
 .row1 {
-    margin: 120px auto;
+    margin: 105px auto;
     margin-bottom: 10px;
-    margin-top: 120px;
     width: 900px;
-    height: 354px;
+}
+.row2 {
+    margin: 10px auto;
 }
 
 .row1 > .column {
     width: 291px;
     height: 354px;
+}
 
 .row2 > .column {
     width: 291px;
