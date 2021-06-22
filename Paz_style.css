@@ -28,3 +28,8 @@ nav > ul > li > a{
 nav > ul > li > a:hover{
     background-color: #0079A1;
 }
+div.content {
+    border: solid gray;
+    background-color: lightgray;
+    margin: 5px;
+  }
