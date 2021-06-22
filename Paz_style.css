@@ -8,6 +8,15 @@ body{
 }
 .row1, .row2 {
     display: flex;
+    width: 900px;
+    border: solid gray;
+    background-color: lightgray;
+}
+.row1 {
+    margin-top: 105px;
+}
+.row2 {
+    margin 10 auto;
 }
 nav > ul {
     display: flex;
@@ -28,17 +37,13 @@ nav > ul > li > a:hover{
     background-color: lightgray;
     margin: 5px;
 }
-.row1, .row2 {
-    border: solid gray;
-    background-color: lightgray;
-    margin: 5px;
-}
 
 header {
     position: fixed;
     background-color: silver;
     color: white;
     top: 0;
+    height: 105px;
     width: 100vw;
 }
 footer{
