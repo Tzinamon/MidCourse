@@ -97,11 +97,19 @@ footer{
     border-radius: 0px 0px 30px 0px;
 }
 .row2 .content {
-    border: solid lightgray;
+    width: 292px;
+    height: 216px;
+    border: solid lightgray 1px;
+    background-image: linear-gradient(to bottom right, white, lightgray);
     border-radius: 0px 30px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .mapbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.row2 .content div:first-child {
+    text-align: center;
 }
