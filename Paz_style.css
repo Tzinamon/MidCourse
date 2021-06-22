@@ -25,6 +25,7 @@ main {
 .row1, .row2 {
     display: flex;
     width: 900px;
+    justify-content: space-around;
 }
 nav > ul {
     display: flex;
@@ -69,7 +70,7 @@ footer{
     justify-content: space-around;
 }
 .row2 {
-    margin-top: 18px ;
+    margin-top: 18px;
 }
 
 .row1 > .column {
@@ -112,4 +113,8 @@ footer{
 }
 .row2 .content div:first-child {
     text-align: center;
+}
+
+.row2 .content div:nth-child(2) {
+    margin: 10px auto;
 }
