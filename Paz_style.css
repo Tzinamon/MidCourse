@@ -61,7 +61,7 @@ footer{
     position: fixed;
     background-color: silver;
     bottom: 0;
-    width: 100%;
+    width: 97%;
     height: 38px;
 }
 .row1 {
@@ -70,7 +70,7 @@ footer{
     justify-content: space-around;
 }
 .row2 {
-    margin: 10px auto;
+    margin-top: 18px ;
 }
 
 .row1 > .column {
@@ -79,8 +79,8 @@ footer{
 }
 
 .row2 > .column {
-    width: 293px;
-    height: 355px;
+    width: 292px;
+    height: 216px;
 }
 .topnav {
     display: flex;
