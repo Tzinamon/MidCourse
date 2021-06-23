@@ -144,7 +144,21 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: solid lime;
+}
 
+.sidemenu {
+    border: solid palevioletred;
+}
+.mid {
+    display: flex;
+    flex-direction: column;
+    border: solid aquamarine;
+}
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    border: solid purple
 }
 /* footer */
 footer{
