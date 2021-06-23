@@ -141,6 +141,7 @@ main {
 /* page 2 main */
 
 .row3 {
+    width: 900px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
