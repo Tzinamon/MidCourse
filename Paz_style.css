@@ -33,6 +33,7 @@ nav > ul {
     margin: 0;
     font-size: 15px;
     font-weight: bold;
+    top: 172px;
     padding: 0;
     bottom: 0;
 }
@@ -58,7 +59,7 @@ nav > ul > li > a, .dd-items > a {
 }
 .dd-items {
     background-color: silver;
-    color: #white;
+    color: white;
     width: max-content;
     top: 70%;
     display: none;
@@ -111,8 +112,10 @@ footer{
     margin: 0 auto;
 }
 .searchbox {
-    width: 20%;
-    float: left;
+    width: 152px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
 }
 
 .row1 .content img {
