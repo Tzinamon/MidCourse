@@ -51,26 +51,16 @@ nav > ul > li > a, .dd-items > a {
     text-decoration: none;
     padding: 10px;
     display: block;
-    background-color: #3B105E; 
 }
 
-nav > ul > li > a:hover {
-    color: #FCFBFC;
-    text-decoration: underline;
-    text-decoration-color: #C77A35;
-    font-weight: bold;
-    padding: 10px;
-}
 .dropdown {
     position: relative;
 }
 .dd-items {
-    background-color: #ffffff;
-    color: #2E0748;
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+    background-color: silver;
+    color: #white;
     width: max-content;
     top: 70%;
-    width: max-content;
     display: none;
     position: absolute;
 }
@@ -78,11 +68,9 @@ nav > ul > li > a:hover {
     color:#C77A35;
     display: block;
 }
-
 .content {
     margin: 0;
 }
-
 header {
     margin-top: 0;
     background-color: silver;
