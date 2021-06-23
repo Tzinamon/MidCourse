@@ -44,8 +44,41 @@ nav > ul > li > a {
 }
 nav > ul > li > a:hover{
     color: #005C9C;
-    text-decoration: underline;
+    text-decoration: underline; 
 }
+nav > ul > li > a, .dd-items > a {
+    color: #FCFBFC;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color: #3B105E; 
+}
+
+nav > ul > li > a:hover {
+    color: #FCFBFC;
+    text-decoration: underline;
+    text-decoration-color: #C77A35;
+    font-weight: bold;
+    padding: 10px;
+}
+.dropdown {
+    position: relative;
+}
+.dd-items {
+    background-color: #ffffff;
+    color: #2E0748;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+    width: max-content;
+    top: 70%;
+    width: max-content;
+    display: none;
+    position: absolute;
+}
+.dropdown:hover > .dd-items {
+    color:#C77A35;
+    display: block;
+}
+
 .content {
     margin: 0;
 }
